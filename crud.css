@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+     /* background-color: #222; */
+     color: #fff; 
+    /* background-image: url(Capture.PNG); */
+    background-color: #84adeb;
+    background-size: cover;
+    /* background-position: 100% 100%; */
+    background-position: center center;
+
+    font-family: system-ui;
+}
+
+.crud {
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    width: 20%;
+    height: 20%;
+    padding-top: 3% ;
+    
+}
+.logo img{
+    width: 100%;
+}
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    
+}
+.head h2{
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 5%
+}
+.head p{
+    font-weight: 400;
+    font-size: 30px;
+    /* color: #091335; */
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    /* background: #091335; */
+    background-image: url();
+    background: lightblue;
+    /* opacity: 0.6; */
+    margin: 5px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+}
+
+input:focus {
+    background: #2a0394;
+    /* transform: scale(1.1); */
+}
+
+.price input {
+    width: 22%;
+}
+
+#total {
+    /* background: #a00d02; */
+    background: #072750;
+    padding: 5px 2px;
+    width: 30%;
+    padding: 9px 12px;
+    border-radius: 4px;
+}
+
+#total::before {
+    content: 'Total: ';
+
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #091335;
+    opacity: .7;
+
+    /* background: #092f61; */
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #0348af;
+    letter-spacing: 1px;
+}
+
+.btnSearch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSearch button {
+    width: 45%;
+
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th {
+    text-transform: uppercase;
+}
+/* tr{
+    color: #091335;
+    font-weight: 400;
+} */
+th,
+td {
+    padding: 5px;
+}
+
+#deleteAll {
+    margin: 20px 0;
+}
